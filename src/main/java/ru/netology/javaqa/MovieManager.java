@@ -3,14 +3,13 @@ package ru.netology.javaqa;
 public class MovieManager {
 
     private String[] movies = new String[0];
-    private int limit;
+    private int limit = 5;
 
     public MovieManager() {
-        this.limit = 5;
     }
 
     public MovieManager(int limit) {
-        this.limit = limit;
+       this.limit = limit;
     }
 
     public void add(String movie) {
